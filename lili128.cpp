@@ -68,7 +68,7 @@ int main() {
         myfile>>Ld[i];
 
       myfile.close();
-    int test=10000000;
+    int test=1000000000;
    
   file.open ("LILIOUT_123.txt");
 
@@ -88,8 +88,8 @@ int main() {
           count++;
 
        
-        //if((count)%100000==0)
-          ////cout<<count/10000000<<"\n";
+        if((count)%10000000==0)
+          cout<<count/10000000<<"\n";
 
 
         
